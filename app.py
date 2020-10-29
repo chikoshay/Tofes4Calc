@@ -19,7 +19,7 @@ def YAM():
             fake_time = int(fake_time[0])
             time_left = fake_time * 4
             verdict = fake_time*7
-            holishit_result = time_left
+            holishit_result = time_left*7
     return render_template("index.html",
                            status=status,
                            verdict=verdict,
